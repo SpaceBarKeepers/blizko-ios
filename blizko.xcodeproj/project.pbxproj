@@ -16,6 +16,8 @@
 		602822332802CD89004EB47B /* blizkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602822322802CD89004EB47B /* blizkoTests.swift */; };
 		6028223D2802CD89004EB47B /* blizkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223C2802CD89004EB47B /* blizkoUITests.swift */; };
 		6028223F2802CD89004EB47B /* blizkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */; };
+		CFCD79DD7C1B3A4A467F950B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD7195CE6EFBA4B2FCF868 /* Home.swift */; };
+		CFCD7D7264F1E0C749578B6F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD70446E784DFD0984A71D /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		602822192802CD88004EB47B /* blizko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blizko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		602822192802CD88004EB47B /* blizko..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blizko..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028221C2802CD88004EB47B /* blizkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoApp.swift; sourceTree = "<group>"; };
 		6028221E2802CD88004EB47B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		602822202802CD89004EB47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		602822382802CD89004EB47B /* blizkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blizkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028223C2802CD89004EB47B /* blizkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITests.swift; sourceTree = "<group>"; };
 		6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFCD70446E784DFD0984A71D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CFCD7195CE6EFBA4B2FCF868 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,7 @@
 		6028221A2802CD88004EB47B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				602822192802CD88004EB47B /* blizko.app */,
+				602822192802CD88004EB47B /* blizko..app */,
 				6028222E2802CD89004EB47B /* blizkoTests.xctest */,
 				602822382802CD89004EB47B /* blizkoUITests.xctest */,
 			);
@@ -104,6 +108,7 @@
 				602822252802CD89004EB47B /* Persistence.swift */,
 				602822272802CD89004EB47B /* blizko.xcdatamodeld */,
 				602822222802CD89004EB47B /* Preview Content */,
+				CFCD746657EE4A4D7BD1C804 /* View */,
 			);
 			path = blizko;
 			sourceTree = "<group>";
@@ -133,6 +138,15 @@
 			path = blizkoUITests;
 			sourceTree = "<group>";
 		};
+		CFCD746657EE4A4D7BD1C804 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD70446E784DFD0984A71D /* Login.swift */,
+				CFCD7195CE6EFBA4B2FCF868 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,7 +164,7 @@
 			);
 			name = blizko;
 			productName = blizko;
-			productReference = 602822192802CD88004EB47B /* blizko.app */;
+			productReference = 602822192802CD88004EB47B /* blizko..app */;
 			productType = "com.apple.product-type.application";
 		};
 		6028222D2802CD89004EB47B /* blizkoTests */ = {
@@ -267,6 +281,8 @@
 				6028221F2802CD88004EB47B /* ContentView.swift in Sources */,
 				602822292802CD89004EB47B /* blizko.xcdatamodeld in Sources */,
 				6028221D2802CD88004EB47B /* blizkoApp.swift in Sources */,
+				CFCD7D7264F1E0C749578B6F /* Login.swift in Sources */,
+				CFCD79DD7C1B3A4A467F950B /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +455,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizko;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = blizko.;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,10 +484,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizko;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = blizko.;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
