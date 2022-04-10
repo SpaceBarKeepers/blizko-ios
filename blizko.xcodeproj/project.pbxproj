@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6028221D2802CD88004EB47B /* blizkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028221C2802CD88004EB47B /* blizkoApp.swift */; };
+		6028221F2802CD88004EB47B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028221E2802CD88004EB47B /* ContentView.swift */; };
+		602822212802CD89004EB47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602822202802CD89004EB47B /* Assets.xcassets */; };
+		602822242802CD89004EB47B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602822232802CD89004EB47B /* Preview Assets.xcassets */; };
+		602822262802CD89004EB47B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602822252802CD89004EB47B /* Persistence.swift */; };
+		602822292802CD89004EB47B /* blizko.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 602822272802CD89004EB47B /* blizko.xcdatamodeld */; };
+		602822332802CD89004EB47B /* blizkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602822322802CD89004EB47B /* blizkoTests.swift */; };
+		6028223D2802CD89004EB47B /* blizkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223C2802CD89004EB47B /* blizkoUITests.swift */; };
+		6028223F2802CD89004EB47B /* blizkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6028222F2802CD89004EB47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 602822112802CD88004EB47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602822182802CD88004EB47B;
+			remoteInfo = blizko;
+		};
+		602822392802CD89004EB47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 602822112802CD88004EB47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602822182802CD88004EB47B;
+			remoteInfo = blizko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		602822192802CD88004EB47B /* blizko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blizko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6028221C2802CD88004EB47B /* blizkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoApp.swift; sourceTree = "<group>"; };
+		6028221E2802CD88004EB47B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		602822202802CD89004EB47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		602822232802CD89004EB47B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		602822252802CD89004EB47B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		602822282802CD89004EB47B /* blizko.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = blizko.xcdatamodel; sourceTree = "<group>"; };
+		6028222E2802CD89004EB47B /* blizkoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blizkoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		602822322802CD89004EB47B /* blizkoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoTests.swift; sourceTree = "<group>"; };
+		602822382802CD89004EB47B /* blizkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blizkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6028223C2802CD89004EB47B /* blizkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITests.swift; sourceTree = "<group>"; };
+		6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602822162802CD88004EB47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6028222B2802CD89004EB47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602822352802CD89004EB47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602822102802CD88004EB47B = {
+			isa = PBXGroup;
+			children = (
+				6028221B2802CD88004EB47B /* blizko */,
+				602822312802CD89004EB47B /* blizkoTests */,
+				6028223B2802CD89004EB47B /* blizkoUITests */,
+				6028221A2802CD88004EB47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6028221A2802CD88004EB47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602822192802CD88004EB47B /* blizko.app */,
+				6028222E2802CD89004EB47B /* blizkoTests.xctest */,
+				602822382802CD89004EB47B /* blizkoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6028221B2802CD88004EB47B /* blizko */ = {
+			isa = PBXGroup;
+			children = (
+				6028221C2802CD88004EB47B /* blizkoApp.swift */,
+				6028221E2802CD88004EB47B /* ContentView.swift */,
+				602822202802CD89004EB47B /* Assets.xcassets */,
+				602822252802CD89004EB47B /* Persistence.swift */,
+				602822272802CD89004EB47B /* blizko.xcdatamodeld */,
+				602822222802CD89004EB47B /* Preview Content */,
+			);
+			path = blizko;
+			sourceTree = "<group>";
+		};
+		602822222802CD89004EB47B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				602822232802CD89004EB47B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		602822312802CD89004EB47B /* blizkoTests */ = {
+			isa = PBXGroup;
+			children = (
+				602822322802CD89004EB47B /* blizkoTests.swift */,
+			);
+			path = blizkoTests;
+			sourceTree = "<group>";
+		};
+		6028223B2802CD89004EB47B /* blizkoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6028223C2802CD89004EB47B /* blizkoUITests.swift */,
+				6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */,
+			);
+			path = blizkoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602822182802CD88004EB47B /* blizko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602822422802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizko" */;
+			buildPhases = (
+				602822152802CD88004EB47B /* Sources */,
+				602822162802CD88004EB47B /* Frameworks */,
+				602822172802CD88004EB47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blizko;
+			productName = blizko;
+			productReference = 602822192802CD88004EB47B /* blizko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6028222D2802CD89004EB47B /* blizkoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602822452802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizkoTests" */;
+			buildPhases = (
+				6028222A2802CD89004EB47B /* Sources */,
+				6028222B2802CD89004EB47B /* Frameworks */,
+				6028222C2802CD89004EB47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				602822302802CD89004EB47B /* PBXTargetDependency */,
+			);
+			name = blizkoTests;
+			productName = blizkoTests;
+			productReference = 6028222E2802CD89004EB47B /* blizkoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		602822372802CD89004EB47B /* blizkoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602822482802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizkoUITests" */;
+			buildPhases = (
+				602822342802CD89004EB47B /* Sources */,
+				602822352802CD89004EB47B /* Frameworks */,
+				602822362802CD89004EB47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6028223A2802CD89004EB47B /* PBXTargetDependency */,
+			);
+			name = blizkoUITests;
+			productName = blizkoUITests;
+			productReference = 602822382802CD89004EB47B /* blizkoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602822112802CD88004EB47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					602822182802CD88004EB47B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6028222D2802CD89004EB47B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 602822182802CD88004EB47B;
+					};
+					602822372802CD89004EB47B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 602822182802CD88004EB47B;
+					};
+				};
+			};
+			buildConfigurationList = 602822142802CD88004EB47B /* Build configuration list for PBXProject "blizko" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602822102802CD88004EB47B;
+			productRefGroup = 6028221A2802CD88004EB47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602822182802CD88004EB47B /* blizko */,
+				6028222D2802CD89004EB47B /* blizkoTests */,
+				602822372802CD89004EB47B /* blizkoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602822172802CD88004EB47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602822242802CD89004EB47B /* Preview Assets.xcassets in Resources */,
+				602822212802CD89004EB47B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6028222C2802CD89004EB47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602822362802CD89004EB47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602822152802CD88004EB47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602822262802CD89004EB47B /* Persistence.swift in Sources */,
+				6028221F2802CD88004EB47B /* ContentView.swift in Sources */,
+				602822292802CD89004EB47B /* blizko.xcdatamodeld in Sources */,
+				6028221D2802CD88004EB47B /* blizkoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6028222A2802CD89004EB47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602822332802CD89004EB47B /* blizkoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602822342802CD89004EB47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6028223D2802CD89004EB47B /* blizkoUITests.swift in Sources */,
+				6028223F2802CD89004EB47B /* blizkoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		602822302802CD89004EB47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602822182802CD88004EB47B /* blizko */;
+			targetProxy = 6028222F2802CD89004EB47B /* PBXContainerItemProxy */;
+		};
+		6028223A2802CD89004EB47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602822182802CD88004EB47B /* blizko */;
+			targetProxy = 602822392802CD89004EB47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		602822402802CD89004EB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		602822412802CD89004EB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602822432802CD89004EB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blizko/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X3T5UF5ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		602822442802CD89004EB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blizko/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X3T5UF5ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		602822462802CD89004EB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizkoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blizko.app/blizko";
+			};
+			name = Debug;
+		};
+		602822472802CD89004EB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizkoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blizko.app/blizko";
+			};
+			name = Release;
+		};
+		602822492802CD89004EB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizkoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blizko;
+			};
+			name = Debug;
+		};
+		6028224A2802CD89004EB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBarKeepers.blizkoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blizko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602822142802CD88004EB47B /* Build configuration list for PBXProject "blizko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602822402802CD89004EB47B /* Debug */,
+				602822412802CD89004EB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602822422802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602822432802CD89004EB47B /* Debug */,
+				602822442802CD89004EB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602822452802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizkoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602822462802CD89004EB47B /* Debug */,
+				602822472802CD89004EB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602822482802CD89004EB47B /* Build configuration list for PBXNativeTarget "blizkoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602822492802CD89004EB47B /* Debug */,
+				6028224A2802CD89004EB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		602822272802CD89004EB47B /* blizko.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				602822282802CD89004EB47B /* blizko.xcdatamodel */,
+			);
+			currentVersion = 602822282802CD89004EB47B /* blizko.xcdatamodel */;
+			path = blizko.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 602822112802CD88004EB47B /* Project object */;
+}
