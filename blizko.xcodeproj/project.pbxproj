@@ -16,6 +16,8 @@
 		602822332802CD89004EB47B /* blizkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602822322802CD89004EB47B /* blizkoTests.swift */; };
 		6028223D2802CD89004EB47B /* blizkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223C2802CD89004EB47B /* blizkoUITests.swift */; };
 		6028223F2802CD89004EB47B /* blizkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */; };
+		60B4737828048DAD00F909C6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 60B4737728048DAD00F909C6 /* MapboxMaps */; };
+		CFCD725C391D0E51118E84F3 /* MapBoxMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD702C625BF5D24E9DFCC9 /* MapBoxMapView.swift */; };
 		CFCD79DD7C1B3A4A467F950B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD7195CE6EFBA4B2FCF868 /* Home.swift */; };
 		CFCD7D7264F1E0C749578B6F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD70446E784DFD0984A71D /* Login.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,8 @@
 		602822382802CD89004EB47B /* blizkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blizkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028223C2802CD89004EB47B /* blizkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITests.swift; sourceTree = "<group>"; };
 		6028223E2802CD89004EB47B /* blizkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blizkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60C5805B280488BE005C7564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFCD702C625BF5D24E9DFCC9 /* MapBoxMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBoxMapView.swift; sourceTree = "<group>"; };
 		CFCD70446E784DFD0984A71D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		CFCD7195CE6EFBA4B2FCF868 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B4737828048DAD00F909C6 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +107,7 @@
 		6028221B2802CD88004EB47B /* blizko */ = {
 			isa = PBXGroup;
 			children = (
+				60C5805B280488BE005C7564 /* Info.plist */,
 				6028221C2802CD88004EB47B /* blizkoApp.swift */,
 				6028221E2802CD88004EB47B /* ContentView.swift */,
 				602822202802CD89004EB47B /* Assets.xcassets */,
@@ -143,6 +149,7 @@
 			children = (
 				CFCD70446E784DFD0984A71D /* Login.swift */,
 				CFCD7195CE6EFBA4B2FCF868 /* Home.swift */,
+				CFCD702C625BF5D24E9DFCC9 /* MapBoxMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +170,9 @@
 			dependencies = (
 			);
 			name = blizko;
+			packageProductDependencies = (
+				60B4737728048DAD00F909C6 /* MapboxMaps */,
+			);
 			productName = blizko;
 			productReference = 602822192802CD88004EB47B /* blizko..app */;
 			productType = "com.apple.product-type.application";
@@ -235,6 +245,9 @@
 				Base,
 			);
 			mainGroup = 602822102802CD88004EB47B;
+			packageReferences = (
+				60B4737628048DAD00F909C6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios.git" */,
+			);
 			productRefGroup = 6028221A2802CD88004EB47B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -283,6 +296,7 @@
 				6028221D2802CD88004EB47B /* blizkoApp.swift in Sources */,
 				CFCD7D7264F1E0C749578B6F /* Login.swift in Sources */,
 				CFCD79DD7C1B3A4A467F950B /* Home.swift in Sources */,
+				CFCD725C391D0E51118E84F3 /* MapBoxMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +458,7 @@
 				DEVELOPMENT_TEAM = 8X3T5UF5ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blizko/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,6 +488,7 @@
 				DEVELOPMENT_TEAM = 8X3T5UF5ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blizko/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -603,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60B4737628048DAD00F909C6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60B4737728048DAD00F909C6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B4737628048DAD00F909C6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios.git" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		602822272802CD89004EB47B /* blizko.xcdatamodeld */ = {

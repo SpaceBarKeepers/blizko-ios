@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f939a2b-ffb9-4ed3-a20e-6f7c734d3479" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blizko/View/Home.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blizko/View/Login.swift" afterDir="false" />
+    <list default="true" id="0f939a2b-ffb9-4ed3-a20e-6f7c734d3479" name="Changes" comment="boilerplate">
+      <change afterPath="$PROJECT_DIR$/blizko/Assets.xcassets/customPointAnnotation.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blizko/Assets.xcassets/customPointAnnotation.imageset/red_pin@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blizko/Assets.xcassets/customPointAnnotation.imageset/red_pin@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blizko/Assets.xcassets/customPointAnnotation.imageset/red_pin@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blizko/View/MapBoxMapView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blizko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blizko.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blizko.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/blizko.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blizko.xcodeproj/project.xcworkspace/xcuserdata/kareldohnal.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/blizko.xcodeproj/project.xcworkspace/xcuserdata/kareldohnal.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blizko.xcodeproj/xcuserdata/kareldohnal.xcuserdatad/xcschemes/blizko.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/blizko.xcodeproj/xcuserdata/kareldohnal.xcuserdatad/xcschemes/blizko.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blizko.xcodeproj/xcuserdata/kareldohnal.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/blizko.xcodeproj/xcuserdata/kareldohnal.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blizko/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/blizko/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blizko/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/blizko/ContentView.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_52E5D1BB-57ED-4391-8661-71D3038BFE56" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,8 +81,16 @@
       <updated>1649579611365</updated>
       <workItem from="1649579612712" duration="4000" />
       <workItem from="1649579628009" duration="248000" />
-      <workItem from="1649579946039" duration="6706000" />
+      <workItem from="1649579946039" duration="14194000" />
     </task>
+    <task id="LOCAL-00001" summary="boilerplate">
+      <created>1649595982197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649595982197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="boilerplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="boilerplate" />
   </component>
 </project>

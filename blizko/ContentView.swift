@@ -48,7 +48,8 @@ struct ContentView: View {
                         .transition(.move(edge: .trailing))
 
             } else {
-                Home(authenticated: self.$authenticated)
+//                Home(authenticated: self.$authenticated)
+                MapBoxMapView()
                         .transition(.move(edge: .trailing))
 
             }

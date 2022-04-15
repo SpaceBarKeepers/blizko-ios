@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1IjoiZGV2ZWxvcGVyYmxpemtvIiwiYSI6ImNsMXV3aHA5cTA0NWIzZGwzeHBkaTRobTQifQ.-88QomT3ZxE5RzYt-7hg3g</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Sdílení vaší polohy je nezbytné pro správný chod aplikace. Poloha není sdílena mimo vaše zařízení.</string>
+</dict>
+</plist>
